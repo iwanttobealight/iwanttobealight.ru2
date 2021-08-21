@@ -318,6 +318,18 @@ blockquote {
   font-weight: 700;
 }
 
+.postslist-card img {
+  display: none;
+}
+
+.postslist-card {
+  padding-bottom: 1em;
+  border-bottom: 2px solid var(--liliac);
+  margin-left: -2em;
+  margin-right: -2em;
+  padding-left: 2em;
+}
+
 .tmpl-home, .tmpl-post {
   background-color: var(--lightblue);
   margin: 0;

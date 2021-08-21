@@ -1,5 +1,10 @@
 {% set allPosts = collections.postsDiary | limit(7) %}
 
+<div class="postslist-card" >
+{% include "./layouts/h-card.njk" %}
+</div>
+
+
 <section class="postlist-wrapper news">
       <ul class="postlist-list">
         {%  for post in allPosts %}

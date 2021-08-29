@@ -386,6 +386,11 @@ a[href].tag, a[href].tag:visited {
   margin-left: 0.1em;
 }
 
+.about-page img {
+  width: 100%;
+  max-width: 500px;
+}
+
 section img {
   width: 100%;
 }
